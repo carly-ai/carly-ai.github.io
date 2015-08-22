@@ -1,0 +1,28 @@
+.post {
+  background-color: $light_yellow !important;
+  background-size: 100% !important;
+
+  header {
+    display: none;
+  }
+
+  #content {
+
+    &.container {
+      margin-top: 480px;
+
+      .col-sm-8 {
+        background: $white;
+      }
+
+      h2 {
+        margin-bottom: 0px;
+      }
+
+      h4 {
+        margin-top: 0px;
+      }
+    }
+
+  }
+}

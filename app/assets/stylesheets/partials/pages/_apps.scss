@@ -1,0 +1,23 @@
+.apps {
+
+  .navbar-default {
+
+  }
+
+  #header-container {
+    background: url("/assets/images/apps/apps-background.png") no-repeat center 50px;
+    min-height: 720px;
+
+    @include breakpoint(xs) {
+      background-position: 33% -190px;
+    }
+
+    #message {
+      margin-top: 460px;
+
+      @include breakpoint(xs) {
+        margin-top: 320px;
+      }
+    }
+  }
+}

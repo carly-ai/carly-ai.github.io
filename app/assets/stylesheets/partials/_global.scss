@@ -1,0 +1,165 @@
+body {
+  font-family: $open-sans;
+  font-size: 16px;
+  color: $dark_gray;
+
+  &.detail {
+    background: $light_yellow;
+  }
+}
+
+a {
+  color: $link;
+}
+
+p {
+  padding-bottom: 15px;
+  line-height: 1.6;
+}
+
+blockquote {
+
+  &:before {
+    content: "\201C";
+    display: block;
+    font-family: times;
+    font-size: 3em;
+    line-height: 0%;
+  }
+
+}
+
+// Headers.
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading_font;
+  line-height: 140%;
+}
+
+h1 {
+  color: $header1;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: $header2;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+h3 {
+  color: $header3;
+  letter-spacing: -1px;
+}
+
+// Sections.
+
+section {
+  padding: 80px 0 30px;
+
+  @include breakpoint(xs) {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .section-heading {
+    margin-bottom: 30px;
+    text-align: center;
+
+    h2, h3 {
+      margin-bottom: 5px;
+      margin-top: 0;
+      line-height: 120%;
+    }
+
+    h2 {
+      font-size: 3em;
+
+      @include breakpoint(xs) {
+        font-size: 1.8em;
+      }
+    }
+
+    h3 {
+      color: $gray;
+
+      @include breakpoint(xs) {
+        font-size: 1.4em;
+      }
+    }
+  }
+
+  &.container {
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+    @include breakpoint(xs) {
+      margin: 55px 0 0;
+      text-align: left;
+    }
+
+    .content-container {
+      @include roundedCorners(4);
+
+      background: $white;
+      border: 1px #eaeaea solid;
+    }
+  }
+}
+
+// Buttons.
+
+.btn {
+  @include roundedCorners(150);
+  @include single-transition(background, 0.5s, ease-in-out, 0);
+
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+
+  &:hover {
+    color: $white !important;
+    background: $orange !important;
+    border-color: transparent !important;
+  }
+}
+
+// Apps.
+
+ul#badges {
+
+  li {
+    a {
+      &.btn {
+        background: none;
+        padding: 0 !important;
+      }
+      img {
+        height: 50px;
+      }
+    }
+  }
+}
+
+// Customers.
+
+#customers {
+
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  @include breakpoint(xs) {
+
+    .col-sm-6 {
+      margin-bottom: 30px;
+    }
+
+    .img-responsive {
+      display: inline;
+    }
+
+  }
+
+}

@@ -1,0 +1,13 @@
+---
+layout: detail
+class:  post
+---
+
+  <p class="hide"><img class="img-responsive" src="{{ "assets/images/blog/" | prepend: site.baseurl }}{{ page.image }}" /></p>
+
+  <div class="page">
+
+    {% include share.html %}
+    {{ content }}
+
+  </div>

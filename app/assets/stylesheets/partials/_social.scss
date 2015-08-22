@@ -1,0 +1,27 @@
+#social {
+  > li {
+    padding: 5px;
+
+    a {
+      color: #fff !important;
+      padding-right: 10px;
+    }
+
+    &#twitter {
+      background: $twitter;
+    }
+
+    &#linkedin {
+      background: $linkedin;
+    }
+
+    &#facebook {
+      background: $facebook;
+    }
+
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+  }
+}

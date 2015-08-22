@@ -1,0 +1,17 @@
+<ul class="list-inline text-right">
+  <li>
+    <a href="https://twitter.com/share?&text={% if page.path contains '_posts' %} {{ page.title }} {% else %} {{ post.title }} {% endif %}&url={% if page.path contains '_posts' %}{{page.shorturl}}{%else%}{{ site.url }}{{ post.url }}{%endif%}&via=getcallr" target="_blank">
+      <i class="fa fa-fw fa-twitter"></i>Tweet
+    </a>
+  </li>
+  <li>
+    <a href="https://www.facebook.com/dialog/share?app_id=842181105802892&display=popup&href={{ site.url }}{% if page.path contains '_posts' %}{{ page.url }}{% else %}{{ post.url }}{% endif %}&redirect_uri={{ site.url }}{{ page.url }}" target="_blank">
+      <i class="fa fa-fw fa-facebook"></i>Share
+    </a>
+  </li>
+  <li>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ post.title }}&source={{ site.title }}" target="_blank">
+      <i class="fa fa-fw fa-linkedin"></i>Share
+    </a>
+  </li>
+</ul>

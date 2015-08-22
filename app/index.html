@@ -1,0 +1,144 @@
+---
+layout: default
+title: Welcome
+description: Start using Callr to make your life less chaotic.
+type: custom
+class: homepage
+include_type: customer
+---
+
+    <div id="header-container">
+
+      <!-- Header -->
+      <header class="jumbotron">
+        <div id="hero" class="container">
+          <div class="row">
+            <div id="video" class="col-sm-6 hide">
+              <div id="placeholder">
+                <i class="fa fa-play-circle-o fa-5 play"></i>
+              </div>
+            </div>
+            <div id="message" class="col-md-8 col-md-offset-2">
+              <h2>Never miss another call.</h2>
+              <h3>Avoid the embarrassment of missing an important client call or phone meeting. Callr calls you 30 seconds before your scheduled calls.</h3>
+
+              <!-- Button -->
+              <div id="buttons">
+                <a href="#" id="video" class="btn btn-outline-inverse how-it-works" onclick="return false;">Here's how it works &nbsp;<i class="fa fa-play" style="padding-left: 10px;"></i></a>
+                <a href="https://app.getcallr.com/join" class="btn btn-outline-inverse"><i class="fa fa-lock"></i>&nbsp; Try Callr for free</a>
+                <div>
+                  <div class="small">No credit card required. No obligation.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-container" class="row">
+            <div id="close" class="clearfix">
+              <i class="fa fa-times close"> Close</i>
+            </div>
+            <div id="vid">
+              <iframe id="youtube" width="560" height="315" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- Sign up -->
+    <section id="signup" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-heading">
+            <h4>Callr is a new technology that makes calling to conference calls absolutely painless. <br/><strong>In fact, you don't have to call in anymore - it calls you.</strong></h4>
+            {% include signup.html %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how-it-works" class="section alternate">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-heading">
+            <h2>How it works</h2>
+            <h3>Three simple steps</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div id="add-phone-number" class="col-sm-4">
+            <div class="img">&nbsp;</div>
+            <h3>Enter your phone number</h3>
+            <p class="lead">
+              This is the number Callr will dial to connect you to your scheduled phones calls.
+            </p>
+          </div>
+          <div id="link-calendar" class="col-sm-4">
+            <div class="img">&nbsp;</div>
+            <h3>Link your calendar</h3>
+            <p class="lead">
+              Callr integrates with Google Calendar, Microsoft Outlook, iOS, and Android calendars.
+            </p>
+          </div>
+          <div id="receive-call" class="col-sm-4">
+            <div class="img">&nbsp;</div>
+            <h3>Get connected 30 seconds early</h3>
+            <p class="lead">
+              Relax! Callr will call you 30 seconds before your event starts. All you have to do is pick up your phone.
+            </p>
+          </div>
+        </div>
+        <div class="row padded hide">
+          <div class="col-lg-12 text-center">
+            <div class="video-container">
+              <iframe width="1140" height="641" src="//www.youtube.com/embed/T9xPcjPW4mw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+              <div class="col-lg-12 section-heading">
+                <h2>Features</h2>
+              </div>
+            </div>
+            <div class="row padded">
+              <div class="col-md-7 description">
+                <h3>You’ll always be on time.</h3>
+                <p class="lead">You can focus on your work while Callr keeps track of your scheduled calls. When it’s time for your phone call, Callr connects you 30 seconds early.</p>
+              </div>
+              <div class="col-md-5">
+                <img class="img-responsive" src="/assets/images/always-on-time.png" alt="">
+              </div>
+            </div>
+            <div class="row padded">
+              <div class="col-md-5">
+                <img class="img-responsive" src="/assets/images/works-with-everything.png" alt="">
+              </div>
+              <div class="col-md-7 description">
+                <h3>Callr works with all services.</h3>
+                <p class="lead">No matter what conference call service you use, Callr can connect you. There is no need to get a new number or fancy URL.*</p>
+                <em class="small">*Currently works only with US numbers.</em>
+              </div>
+            </div>
+            <div class="row padded">
+              <div class="col-md-7 description">
+                <h3>Your event information is secure.</h3>
+                <p class="lead">We keep your event information safe and sound with 256-bit AES and 256-bit SSL encryption – the strongest security levels available.</p>
+              </div>
+              <div class="col-md-5">
+                <img class="img-responsive" src="/assets/images/aes-256.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include press.html class="alternate padded large" %}

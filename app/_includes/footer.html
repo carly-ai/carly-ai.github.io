@@ -1,0 +1,90 @@
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <h4>Product</h4>
+              <ul class="list-unstyled">
+                {% for node in site.navigation %}
+                  {% if node.show_in == 'both' or node.show_in == 'product' %}
+                    <li {% if page.url == node.url %}class="active"{% endif %}>
+                      <h5><a href="{{ node.url }}">{{ node.title }}</a></h5>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h4>Company</h4>
+              <ul class="list-unstyled">
+                {% for node in site.navigation %}
+                  {% if node.show_in == 'company' %}
+                    <li {% if page.url == node.url %}class="active"{% endif %}>
+                      <h5><a href="{{ node.url }}">{{ node.title }}</a></h5>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h4>Support</h4>
+              <ul class="list-unstyled">
+                {% for node in site.navigation %}
+                  {% if node.show_in == 'support' %}
+                    <li {% if page.url == node.url %}class="active"{% endif %}>
+                      <h5><a href="{{ node.url }}">{{ node.title }}</a></h5>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h4>Legal</h4>
+              <ul class="list-unstyled">
+                {% for node in site.navigation %}
+                  {% if node.show_in == 'legal' %}
+                    <li {% if page.url == node.url %}class="active"{% endif %}>
+                      <h5><h5><a href="{{ node.url }}">{{ node.title }}</a></h5></h5>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-sm-4 social">
+              <h4>Connect</h4>
+              <ul id="social" class="list-inline">
+                {% for network in site.social %}
+                  <li id="{{ network.title }}">
+                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i> {{ network.tag }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="copyright small">Copyright &copy;  20{{ site.time | date: '%y' }} {{ site.footer.copyright }} <span>Patent Pending.</span><br>
+              Made with <span class="fa fa-heart"></span> by <a href="http://www.blencorp.com/" target="_blank">BLEN Corp</a> in Washington, DC.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- build:js(app) /assets/javascripts/vendor.js -->
+    <script src="/assets/_bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js(app) /assets/javascripts/app.js -->
+    <script src="/assets/javascripts/app.js"></script>
+    <!-- endbuild -->
+
+    {% include analytics.html %}

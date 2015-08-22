@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  {% include head.html %}
+
+  <body id="page-top" class="{{ page.layout_class }} {{ page.class }}" {% if page.path contains '_posts' %}style="background: url({{ "assets/images/og/" | prepend: site.baseurl }}{{ page.image }}) no-repeat center 0"{% endif %}>
+
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% if page.include_type contains 'customer' %}
+      {% include customers.html %}
+    {% elsif page.include_type contains 'signup' or page.path contains '_posts' %}
+      <!-- Sign up -->
+      <section id="signup" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 section-heading">
+              <h3>Sign up for a free account &dash; it takes less than a minute!</h3>
+              {% include signup.html %}
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    {% include footer.html %}
+
+  </body>
+</html>

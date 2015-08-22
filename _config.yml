@@ -1,0 +1,101 @@
+# Site settings
+title:        Callr
+email:        info@getcallr.com
+description:  "No more dialing into conference calls - Callr calls you!"
+url:          "http://www.getcallr.com"
+
+# Navigation
+navigation:
+  - title:      Apps
+    url:        /apps/
+    show_in:    both
+  - title:      Tour
+    url:        /tour/
+    show_in:    both
+  - title:      Pricing
+    url:        /pricing/
+    show_in:    both
+  - title:      Customers
+    url:        /customers/
+    show_in:    both
+
+  - title:      Log In
+    url:        https://app.getcallr.com/login
+    show_in:    navbar
+  - title:      <i class="fa fa-lock"></i>&nbsp; Try Callr for free
+    url:        https://app.getcallr.com/join
+    class:      btn
+    show_in:    navbar
+
+  - title:      Home
+    url:        /
+    show_in:    company
+  - title:      About us
+    url:        /about/
+    show_in:    company
+  - title:      Blog
+    url:        /blog/
+    show_in:    company
+  - title:      Press
+    url:        /press/
+    show_in:    company
+
+#  - title:      Help Center
+#    url:        /faq
+#    show_in:    support
+  - title:      FAQ
+    url:        /faq/
+    show_in:    support
+  - title:      Email us
+    url:        /contact/
+    show_in:    support
+
+  - title:      Terms of Service
+    url:        /terms-of-service/
+    show_in:    legal
+  - title:      Privacy Policy
+    url:        /privacy-policy/
+    show_in:    legal
+  - title:      Security
+    url:        /security/
+    show_in:    legal
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title:      twitter
+    tag:        Follow
+    url:        https://twitter.com/getcallr
+  - title:      linkedin
+    tag:        Follow
+    url:        https://www.linkedin.com/company/callr
+  - title:      facebook
+    tag:        Like
+    url:        https://facebook.com/getcallr
+
+# Footer
+footer:
+  copyright:    Callr Communications, Inc.
+
+# Sitemap
+sitemap:
+  lastmod:      2014-12-15
+  priority:     0.7
+  changefreq:   'monthly'
+  exclude:      'yes'
+
+# Dependencies
+markdown:       redcarpet
+highlighter:    pygments
+kramdown:
+  input:        GFM
+
+# Permalinks
+permalink:            /:categories/:year/:month/:day/:title/
+relative_permalinks:  true
+
+show_drafts:  true
+exclude:      ['assets', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.ico']
+
+# Redirects
+gems:
+  - jekyll-redirect-from

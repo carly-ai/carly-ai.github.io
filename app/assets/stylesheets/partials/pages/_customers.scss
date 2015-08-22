@@ -1,0 +1,87 @@
+.customers {
+
+  #header-container {
+    background: url("/assets/images/customers/banner-michael.jpg") no-repeat center 50px #000;
+    background-size: cover;
+    text-align: left;
+
+    @include breakpoint(xs) {
+      background-size: 250%;
+      background-position: 75% 50px;
+    }
+
+    // @include breakpoint(sm) {
+    //   background-size: 140%;
+    //   background-position: -315px 80px;
+    // }
+
+    header {
+
+      @include breakpoint(xs) {
+        padding-top: 240px;
+      }
+
+      // @include breakpoint(sm) {
+      //   padding-top: 350px;
+      // }
+
+      h2 {
+        background: url("/assets/images/customers/quote-mark.png") no-repeat center 0;
+        color: #fff;
+        font-size: 2.2em;
+        line-height: 130%;
+        padding-top: 90px;
+        text-align: center;
+
+        @include breakpoint(xs) {
+          font-size: 1.2em;
+          line-height: 150%;
+          background-size: 100%;
+          padding-top: 45px;
+        }
+      }
+
+      .attribute {
+        text-align: center;
+        margin-top: 20px;
+
+        @include opacity(0.8);
+      }
+    }
+  }
+
+  #customers {
+    display: none;
+  }
+
+  #customers-list {
+    padding: 0;
+
+    .row {
+      margin-bottom: 30px;
+    }
+    .message {
+      background: url("/assets/images/customers/quote-mark.png") no-repeat center -530px;
+      background-size: cover;
+      padding-top: 70px;
+
+      @include breakpoint(sm) {
+        background-size: 77%;
+        background-position: center -520px;
+      }
+    }
+
+    h4 {
+      color: #888;
+      text-align: center;
+      line-height: 150%;
+      min-height: 100px;
+    }
+
+    img {
+      margin-top: 10px;
+      width: 120px;
+      padding-bottom: 10px;
+    }
+  }
+}

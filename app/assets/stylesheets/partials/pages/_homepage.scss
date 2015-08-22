@@ -1,0 +1,82 @@
+// Homepage specific.
+.homepage {
+  // Nav.
+  .navbar-default {
+    // background-color: transparent;
+    // background: transparent;
+  }
+
+  // Header.
+  header {
+    &.jumbotron {
+      padding-top: 160px;
+      padding-bottom: 40px;
+    }
+
+    h2 {
+      color: $orange;
+      margin-top: 0;
+      line-height: 100%;
+    }
+
+    h3 {
+      color: $black;
+
+      @include breakpoint(xs) {
+        display: none;
+      }
+    }
+  }
+
+  // Sections.
+  section {
+    &#how-it-works {
+      text-align: center;
+
+      h3 {
+        font-weight: bold;
+        color: $black;
+      }
+
+      .img {
+        background: url(/assets/images/how-it-works.png) no-repeat;
+        background-size: cover;
+        height: 250px;
+      }
+
+      #add-phone-number {
+        .img {
+          background-position: 0 0;
+        }
+      }
+
+      #link-calendar {
+        .img {
+          background-position: 50% 0;
+        }
+      }
+
+      #receive-call {
+        .img {
+          background-position: 100% 0;
+        }
+      }
+    }
+
+    &#signup {
+      background: $black;
+    }
+
+    &#features {
+      .description {
+        margin-top: 25px;
+      }
+    }
+
+  }
+
+  .lead {
+    font-size: 120%;
+    color: $black;
+  }
+}

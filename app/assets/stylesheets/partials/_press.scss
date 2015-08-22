@@ -1,0 +1,24 @@
+#press {
+
+  .press {
+    background: url("/assets/images/press-logos.png") no-repeat center 0;
+    background-size: cover;
+    text-indent: -9999px;
+    height: 120px;
+    display: block;
+
+    &#techcrunch {
+
+    }
+
+    &#producthunt {
+      background-position: 0 -115px;
+    }
+
+    &#techcocktail {
+      background-position: 0 -230px;
+    }
+
+  }
+
+}

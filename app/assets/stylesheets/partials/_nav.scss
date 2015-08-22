@@ -1,0 +1,118 @@
+.navbar-default {
+  background-color: $orange;
+  padding: 15px 0;
+
+  @include breakpoint(xs) {
+
+    padding: 10px 0;
+
+    .navbar-collapse {
+      background: $black;
+      margin-top: 10px;
+      border-width: 0px;
+      border-color: transparent;
+
+      .btn {
+        display: none;
+      }
+    }
+
+  }
+
+  &.borderless {
+    border: 0 none;
+  }
+
+  &.top-nav-collapse {
+    background-color: $orange !important;
+    padding: 10px 0;
+    box-shadow: 0px 0 5px rgba(0,0,0,0.4);
+  }
+
+  .navbar-brand {
+    background: url("/assets/images/logo.png") no-repeat center center;
+    background-size: 80%;
+    text-indent: -9999px;
+    width: 135px;
+
+    @include breakpoint(xs) {
+      background-position: 10px center;
+      background-size: 80%;
+      width: 145px;
+    }
+  }
+
+  .navbar-nav {
+    >li {
+      margin-left: 5px;
+
+      >a {
+        color: $white;
+        font-size: 0.9em;
+
+        @include breakpoint(xs) {
+          text-align: center;
+        }
+
+        @include single-transition(border-bottom, 0.5s, ease-in-out, 0);
+
+        &:hover {
+          color: $white;
+          background: none;
+          border-bottom: 1px solid rgba(255, 255, 255, 1);
+        }
+
+        &:focus {
+          outline: 0 none;
+        }
+
+        &.btn {
+          background: $black;
+
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+
+          @include single-transition(background, 0.5s, ease-in-out, 0);
+
+          &:hover,
+          &:focus {
+            background: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+
+      &.active > a {
+        background: none;
+        color: rgb(145, 40, 19);
+        border-bottom: 1px solid rgba(145, 40, 19, 1);
+        margin-right: 5px;
+
+        @include breakpoint(xs) {
+          background: $orange;
+          color: $white;
+        }
+
+        @include single-transition(border-bottom, 0.5s, ease-in-out, 0);
+
+        &:hover {
+          //color: $white;
+          background: none;
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+  .navbar-toggle {
+    border-color: transparent;
+
+    .icon-bar {
+      background-color: $white;
+    }
+
+    &:hover,
+    &:focus {
+      background: $black;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.campaign {
+  &.new-year {
+
+    #header-container {
+      background: url(/assets/images/campaign/new-year-launch.png) $orange no-repeat center 0;
+      background-size: 150%;
+
+      @include breakpoint(md) {
+        background-size: cover;
+      }
+
+      @include breakpoint(xs) {
+        margin-top: 60px;
+        background-size: 170%;
+      }
+
+      #hashtag {
+
+        h2 {
+          color: $orange;
+
+          @include breakpoint(md) {
+            padding: 500px 0 0;
+          }
+
+          @include breakpoint(xs) {
+            padding: 150px 0 0;
+            font-size: 1.6em;
+          }
+        }
+
+        h3 {
+          color: $gray;
+
+          @include breakpoint(xs) {
+            font-size: 1.4em;
+          }
+        }
+      }
+    }
+
+    #buttons {
+      margin-top: 30px;
+
+      .btn {
+        padding: 25px 50px;
+        background: $orange;
+        color: $white;
+        font-weight: 600;
+      }
+    }
+
+    #customers {
+      display: none;
+    }
+  }
+
+  &.wework {
+
+    #header-container {
+      background: $white;
+
+      @include breakpoint(xs) {
+        margin-top: 60px;
+        background-size: 170%;
+      }
+
+      #hero {
+
+        h2 {
+          color: $white;
+
+          @include breakpoint(xs) {
+            font-size: 1.6em;
+          }
+        }
+
+        h3 {
+          color: $dark_gray;
+          padding-top: 20px;
+
+          @include breakpoint(xs) {
+            font-size: 1.4em;
+          }
+        }
+      }
+    }
+
+    .alternate {
+      padding: 60px 0;
+    }
+
+    .section {
+      h3, h2 {
+        margin-top: 0;
+      }
+    }
+
+    #buttons {
+      margin-top: 30px;
+
+      .btn {
+        padding: 25px 50px;
+        background: $orange;
+        color: $white;
+        font-weight: 600;
+      }
+    }
+
+  }
+}
