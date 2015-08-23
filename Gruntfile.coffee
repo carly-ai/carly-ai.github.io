@@ -21,7 +21,7 @@ module.exports = (grunt) ->
         message: 'Build from commit %sourceCommit% on branch %sourceBranch%'
       github:
         options:
-          remote: 'git@github.com:carly.ai/carly.ai.github.io.git'
+          remote: 'git@github.com:carly-ai/carly-ai.github.io.git'
           branch: 'master'
 
     clean:
