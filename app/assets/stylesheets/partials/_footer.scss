@@ -1,5 +1,5 @@
 #footer {
-  background: #2e3133;
+  border-top: 1px solid $light_yellow;
   color: #777;
 
   @include breakpoint(xs) {

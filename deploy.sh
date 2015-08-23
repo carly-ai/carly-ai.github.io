@@ -1,6 +1,6 @@
 #!/bin/sh
 # deploy.sh
-# Easy getcallr.com deployment script to github.
+# Easy carly.ai deployment script to github.
 
 # Push to the 'site' branch.
 git push origin site

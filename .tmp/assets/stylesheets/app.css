@@ -7226,7 +7226,7 @@ body {
   font-size: 16px;
   color: #6e6e6e; }
   body.detail {
-    background: #f6f6ef; }
+    background: #f8f8f8; }
 
 a {
   color: #3498db; }
@@ -7247,17 +7247,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 140%; }
 
 h1 {
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
   letter-spacing: -1px; }
 
 h2 {
-  color: #ee4a29;
+  color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
   letter-spacing: -1px; }
 
 h3 {
-  color: #2f2f2f;
+  color: rgba(47, 47, 47, 0.5);
   letter-spacing: -1px; }
 
 section {
@@ -7302,7 +7302,7 @@ section {
   padding-right: 30px !important; }
   .btn:hover {
     color: white !important;
-    background: #ee4a29 !important;
+    background: #7dd7cf !important;
     border-color: transparent !important; }
 
 ul#badges li a.btn {
@@ -7321,7 +7321,7 @@ ul#badges li a img {
     display: inline; } }
 
 .navbar-default {
-  background-color: #ee4a29;
+  background-color: #7dd7cf;
   padding: 15px 0; }
   @media (max-width: 767px) {
     .navbar-default {
@@ -7336,12 +7336,12 @@ ul#badges li a img {
   .navbar-default.borderless {
     border: 0 none; }
   .navbar-default.top-nav-collapse {
-    background-color: #ee4a29 !important;
+    background-color: #7dd7cf !important;
     padding: 10px 0;
     box-shadow: 0px 0 5px rgba(0, 0, 0, 0.4); }
   .navbar-default .navbar-brand {
     background: url("/assets/images/logo.png") no-repeat center center;
-    background-size: 80%;
+    background-size: 130%;
     text-indent: -9999px;
     width: 135px; }
     @media (max-width: 767px) {
@@ -7379,7 +7379,7 @@ ul#badges li a img {
       transition: border-bottom 0.5s ease-in-out 0; }
       @media (max-width: 767px) {
         .navbar-default .navbar-nav > li.active > a {
-          background: #ee4a29;
+          background: #7dd7cf;
           color: white; } }
       .navbar-default .navbar-nav > li.active > a:hover {
         background: none;
@@ -7443,7 +7443,7 @@ header {
           font-size: 9em;
           color: white; }
           header.jumbotron #video #placeholder .play:hover {
-            color: #ee4a29; }
+            color: #7dd7cf; }
     header.jumbotron .video-container {
       display: none;
       padding-top: 25px; }
@@ -7470,14 +7470,14 @@ header {
           border: 0px #fff solid; }
 
 #header-container {
-  background: white;
+  background: #7dd7cf;
   background-size: cover;
   text-align: center;
   padding: 30px 0;
   margin-top: 0px; }
   @media (max-width: 767px) {
     #header-container {
-      background: #ee4a29; } }
+      background: #7dd7cf; } }
   #header-container header {
     background: transparent; }
   #header-container h3 {
@@ -7498,7 +7498,7 @@ header {
     height: 63px; }
   #header-container .btn {
     color: white;
-    background: #ee4a29;
+    background: #7dd7cf;
     font-size: 1.1em;
     font-weight: bold;
     margin-bottom: 5px;
@@ -7511,8 +7511,7 @@ header {
         padding: 17px 27px; } }
     #header-container .btn.how-it-works {
       background: transparent;
-      border: 1px rgba(0, 0, 0, 0.7) solid;
-      color: rgba(0, 0, 0, 0.7); }
+      border: 1px rgba(0, 0, 0, 0.7) solid; }
       @media (max-width: 767px) {
         #header-container .btn.how-it-works {
           display: none; } }
@@ -7523,7 +7522,7 @@ header {
       padding: 30px 0; } }
 
 #footer {
-  background: #2e3133;
+  border-top: 1px solid #f8f8f8;
   color: #777; }
   @media (max-width: 767px) {
     #footer .col-sm-2 {
@@ -7555,7 +7554,7 @@ header {
     color: #ee4a29; }
 
 #signup {
-  background: #ee4a29;
+  background: #7dd7cf;
   padding: 25px 0 30px; }
   @media (max-width: 767px) {
     #signup h4 {
@@ -7597,7 +7596,7 @@ header {
     background-position: 0 -230px; }
 
 .alternate {
-  background: #f6f6ef;
+  background: #f8f8f8;
   border: 1px #eaeaea solid; }
 
 .more {
@@ -7649,23 +7648,22 @@ header {
 .reset-margin {
   margin: 0; }
 
-.homepage header.jumbotron {
-  padding-top: 160px;
-  padding-bottom: 40px; }
-.homepage header h2 {
-  color: #ee4a29;
-  margin-top: 0;
-  line-height: 100%; }
-.homepage header h3 {
-  color: rgba(0, 0, 0, 0.7); }
-  @media (max-width: 767px) {
-    .homepage header h3 {
-      display: none; } }
+.homepage #header-container {
+  min-height: 715px; }
+  .homepage #header-container header.jumbotron {
+    padding-top: 160px;
+    padding-bottom: 40px; }
+  .homepage #header-container header h2 {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 0;
+    line-height: 100%; }
+  .homepage #header-container header h3 {
+    color: rgba(0, 0, 0, 0.7); }
+    @media (max-width: 767px) {
+      .homepage #header-container header h3 {
+        display: none; } }
 .homepage section#how-it-works {
   text-align: center; }
-  .homepage section#how-it-works h3 {
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.7); }
   .homepage section#how-it-works .img {
     background: url(/assets/images/how-it-works.png) no-repeat;
     background-size: cover;
@@ -7858,7 +7856,7 @@ header {
         margin-top: 320px; } }
 
 .post {
-  background-color: #f6f6ef !important;
+  background-color: #f8f8f8 !important;
   background-size: 100% !important; }
   .post header {
     display: none; }
@@ -7872,7 +7870,7 @@ header {
       margin-top: 0px; }
 
 .campaign.new-year #header-container {
-  background: url(/assets/images/campaign/new-year-launch.png) #ee4a29 no-repeat center 0;
+  background: url(/assets/images/campaign/new-year-launch.png) #7dd7cf no-repeat center 0;
   background-size: 150%; }
   @media (min-width: 992px) {
     .campaign.new-year #header-container {
@@ -7882,7 +7880,7 @@ header {
       margin-top: 60px;
       background-size: 170%; } }
   .campaign.new-year #header-container #hashtag h2 {
-    color: #ee4a29; }
+    color: #7dd7cf; }
     @media (min-width: 992px) {
       .campaign.new-year #header-container #hashtag h2 {
         padding: 500px 0 0; } }
@@ -7899,7 +7897,7 @@ header {
   margin-top: 30px; }
   .campaign.new-year #buttons .btn {
     padding: 25px 50px;
-    background: #ee4a29;
+    background: #7dd7cf;
     color: white;
     font-weight: 600; }
 .campaign.new-year #customers {
@@ -7929,7 +7927,7 @@ header {
   margin-top: 30px; }
   .campaign.wework #buttons .btn {
     padding: 25px 50px;
-    background: #ee4a29;
+    background: #7dd7cf;
     color: white;
     font-weight: 600; }
 

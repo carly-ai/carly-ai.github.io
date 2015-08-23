@@ -97,7 +97,7 @@ include_type: customers
           <h3><span class="symbol">$</span>0</h3>
           <h4>&nbsp;</h4>
         </div>
-        <a href="https://app.getcallr.com/join" type="button" class="btn btn-success">Sign Up</a>
+        <a href="https://app.carly.ai/join" type="button" class="btn btn-success">Sign Up</a>
       </div>
     </div>
 
@@ -144,7 +144,7 @@ include_type: customers
           <h3><span class="symbol">$</span>9</h3>
           <h4>per month</h4>
         </div>
-        <a href="https://app.getcallr.com/join" type="button" class="btn btn-success">Sign Up</a>
+        <a href="https://app.carly.ai/join" type="button" class="btn btn-success">Sign Up</a>
       </div>
     </div>
 
@@ -191,7 +191,7 @@ include_type: customers
           <h3><span class="symbol">$</span>25</h3>
           <h4>per month</h4>
         </div>
-        <a href="https://app.getcallr.com/join" type="button" class="btn btn-success">Sign Up</a>
+        <a href="https://app.carly.ai/join" type="button" class="btn btn-success">Sign Up</a>
       </div>
     </div>
   </div>
@@ -199,7 +199,7 @@ include_type: customers
 
   <div class="row">
     <div class="alert alert-info text-center" role="alert">
-      <strong>Need more calls?</strong> Shoot us an email at <a href="mailto:info@getcallr.com?Subject=More calls, please">info@getcallr.com</a>
+      <strong>Need more calls?</strong> Shoot us an email at <a href="mailto:info@carly.ai?Subject=More calls, please">info@carly.ai</a>
     </div>
   </div>
   <!--row-->

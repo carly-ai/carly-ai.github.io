@@ -1,8 +1,8 @@
 # Site settings
-title:        Callr
-email:        info@getcallr.com
-description:  "No more dialing into conference calls - Callr calls you!"
-url:          "http://www.getcallr.com"
+title:        Carly.ai
+email:        info@carly.ai
+description:  "No more dialing into conference calls - Carly.ai calls you!"
+url:          "http://www.carly.ai"
 
 # Navigation
 navigation:
@@ -20,10 +20,10 @@ navigation:
     show_in:    both
 
   - title:      Log In
-    url:        https://app.getcallr.com/login
+    url:        https://app.carly.ai/login
     show_in:    navbar
-  - title:      <i class="fa fa-lock"></i>&nbsp; Try Callr for free
-    url:        https://app.getcallr.com/join
+  - title:      <i class="fa fa-lock"></i>&nbsp; Try Carly.ai for free
+    url:        https://app.carly.ai/join
     class:      btn
     show_in:    navbar
 
@@ -64,17 +64,17 @@ navigation:
 social:
   - title:      twitter
     tag:        Follow
-    url:        https://twitter.com/getcallr
+    url:        https://twitter.com/carly.ai
   - title:      linkedin
     tag:        Follow
-    url:        https://www.linkedin.com/company/callr
+    url:        https://www.linkedin.com/company/Carly.ai
   - title:      facebook
     tag:        Like
-    url:        https://facebook.com/getcallr
+    url:        https://facebook.com/carly.ai
 
 # Footer
 footer:
-  copyright:    Callr Communications, Inc.
+  copyright:    Carly.ai Communications, Inc.
 
 # Sitemap
 sitemap:

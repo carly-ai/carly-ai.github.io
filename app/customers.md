@@ -2,7 +2,7 @@
 layout: default
 title: Customers
 section_title: Customers
-description: People love using Callr. See what they say about it.
+description: People love using Carly.ai. See what they say about it.
 permalink: /customers/
 class: customers
 type: custom
@@ -16,7 +16,7 @@ redirect_from:
       <div id="hero" class="container">
         <div id="message" class="row">
           <div class="col-sm-7">
-            <h2>Callr is my favorite new productivity tool &mdash; anyone who does a ton of phone meetings needs to check this out.</h2>
+            <h2>Carly.ai is my favorite new productivity tool &mdash; anyone who does a ton of phone meetings needs to check this out.</h2>
             <div class="attribute">
               <p>Michael Seibel<br /> Partner at &nbsp;<img src="/assets/images/logo-ycombinator.png" alt="Y Combinator Logo" /></p>
             </div>
@@ -34,7 +34,7 @@ redirect_from:
       <div class="row">
         <div class="col-sm-6">
           <div class="message">
-            <blockquote>Callr acts as my personal assistant to connect me at just the right time so I don't miss calls or hold up my team.</blockquote>
+            <blockquote>Carly.ai acts as my personal assistant to connect me at just the right time so I don't miss calls or hold up my team.</blockquote>
             <div class="text-center">
               <div class="profile-circle" ><img src="/assets/images/customers/profile-laura.png" alt="Laura Davis-Robeson" /></div>
               <div>
@@ -56,7 +56,7 @@ redirect_from:
       <div class="row">
         <div class="col-sm-6">
           <div class="message">
-            <blockquote>Callr is one of those rare tools you start using and wonder why on earth we’ve all spent years fumbling for numbers and stressing about dialing into our next call.</blockquote>
+            <blockquote>Carly.ai is one of those rare tools you start using and wonder why on earth we’ve all spent years fumbling for numbers and stressing about dialing into our next call.</blockquote>
             <div class="text-center">
               <div class="profile-circle"><img src="/assets/images/customers/profile-colin.png" alt="Colin" /></div>
               <em><a href="https://twitter.com/cmoffett" target="_blank">Colin Moffett</a><br />Partner at <a href="http://www.artemisward.com/" target="_blank">Artemis Ward</a> &amp; part-time professor at Georgetown University</em>
@@ -65,7 +65,7 @@ redirect_from:
         </div>
         <div class="col-sm-6">
           <div class="message">
-            <blockquote>Callr enables me to stay on top of my busy schedule and helps me delight my clients. Callr is there to make sure I'm always on time.</blockquote>
+            <blockquote>Carly.ai enables me to stay on top of my busy schedule and helps me delight my clients. Carly.ai is there to make sure I'm always on time.</blockquote>
             <div class="text-center">
               <div class="profile-circle"><img src="/assets/images/customers/profile-lance.png" alt="Lance" /></div>
               <em><a href="https://twitter.com/greeneggmedia" target="_blank">Lance Johnson</a><br />Founder &amp; CEO <a href="http://greeneggmedia.com/" target="_blank">Green Egg Media</a></em>

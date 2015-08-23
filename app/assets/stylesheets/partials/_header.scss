@@ -119,7 +119,7 @@ header {
 
 #header-container {
   //background: url("/assets/images/hero/background.jpg") no-repeat center center transparent;
-  background: $white;
+  background: $orange;
   background-size: cover;
   text-align: center;
 
@@ -187,7 +187,6 @@ header {
       &.how-it-works {
         background: transparent;
         border: 1px $black solid;
-        color: $black;
 
         @include breakpoint(xs) {
           display: none;

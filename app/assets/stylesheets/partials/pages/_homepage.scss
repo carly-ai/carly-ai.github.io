@@ -6,37 +6,37 @@
     // background: transparent;
   }
 
-  // Header.
-  header {
-    &.jumbotron {
-      padding-top: 160px;
-      padding-bottom: 40px;
-    }
+  #header-container {
+    min-height: 715px;
 
-    h2 {
-      color: $orange;
-      margin-top: 0;
-      line-height: 100%;
-    }
+    // Header.
+    header {
+      &.jumbotron {
+        padding-top: 160px;
+        padding-bottom: 40px;
+      }
 
-    h3 {
-      color: $black;
+      h2 {
+        color: $black;
+        margin-top: 0;
+        line-height: 100%;
+      }
 
-      @include breakpoint(xs) {
-        display: none;
+      h3 {
+        color: $black;
+
+        @include breakpoint(xs) {
+          display: none;
+        }
       }
     }
+
   }
 
   // Sections.
   section {
     &#how-it-works {
       text-align: center;
-
-      h3 {
-        font-weight: bold;
-        color: $black;
-      }
 
       .img {
         background: url(/assets/images/how-it-works.png) no-repeat;

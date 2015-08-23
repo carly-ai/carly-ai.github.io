@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Apps
-section_title: Apps to make Callr even more cooler.
+section_title: Apps to make Carly.ai even more cooler.
 permalink: /apps/
 type: custom
 class: apps
@@ -17,8 +17,8 @@ include_type: signup
           </div>
           <div class="col-sm-6">
             <ul id="badges" class="list-inline">
-              <li><a href="https://itunes.apple.com/us/app/callr-app/id929618587?mt=8&uo=4" class="btn" target="_blank"><img src="/assets/images/apps/badge-app-store.png" alt="Apple App Store and Google Play Store" class="img-responsive" /></a></li>
-              <li><a href="https://play.google.com/store/apps/details?id=com.getcallr.callr" class="btn" target="_blank"><img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" /></a></li>
+              <li><a href="https://itunes.apple.com/us/app/Carly.ai-app/id929618587?mt=8&uo=4" class="btn" target="_blank"><img src="/assets/images/apps/badge-app-store.png" alt="Apple App Store and Google Play Store" class="img-responsive" /></a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=com.carly.ai.Carly.ai" class="btn" target="_blank"><img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" /></a></li>
             </ul>
           </div>
         </div>

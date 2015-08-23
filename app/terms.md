@@ -8,7 +8,7 @@ type: narrow
 ---
 #### Last updated: November 23, 2014
 
-Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the getcallr.com website and app (the "Service") operated by Callr ("us", "we", or "our").
+Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the carly.ai website and app (the "Service") operated by Carly.ai ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
 
@@ -16,9 +16,9 @@ By accessing or using the Service you agree to be bound by these Terms. If you d
 
 ### Links To Other Web Sites
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by Callr.
+Our Service may contain links to third-party web sites or services that are not owned or controlled by Carly.ai.
 
-Callr has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Callr shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+Carly.ai has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Carly.ai shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
 
 We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.
 
@@ -36,4 +36,4 @@ By continuing to access or use our Service after those revisions become effectiv
 
 ### Contact Us
 
-If you have any questions about our Privacy Policy, please <a href="mailto:info@getcallr.com">contact us</a>.
+If you have any questions about our Privacy Policy, please <a href="mailto:info@carly.ai">contact us</a>.

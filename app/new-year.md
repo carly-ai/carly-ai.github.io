@@ -1,7 +1,7 @@
 ---
 layout: default
 title: New Year Resolution
-description: Start using Callr to make your life less chaotic.
+description: Start using Carly.ai to make your life less chaotic.
 type: custom
 permalink: /new-year/
 image: new-year-launch.png
@@ -31,9 +31,9 @@ class: campaign new-year
       </div>
       <div class="col-sm-6 text-center">
         <h3>Meet Peter.</h3>
-        <h4>Learn how Callr helped him get control of his day.</h4>
+        <h4>Learn how Carly.ai helped him get control of his day.</h4>
         <div id="buttons">
-          <a href="https://app.getcallr.com/join?code=NYR15" class="btn btn-outline-inverse btn-lg"><i class="fa fa-lock"></i>&nbsp; Try Callr for free</a>
+          <a href="https://app.carly.ai/join?code=NYR15" class="btn btn-outline-inverse btn-lg"><i class="fa fa-lock"></i>&nbsp; Try Carly.ai for free</a>
           <div>
             <div class="small">No credit card required. No obligation.</div>
           </div>
