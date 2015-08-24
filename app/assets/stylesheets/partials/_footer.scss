@@ -1,5 +1,5 @@
 #footer {
-  border-top: 1px solid $light_yellow;
+  border-top: 1px solid #f1f1f1;
   color: #777;
 
   @include breakpoint(xs) {
@@ -17,7 +17,7 @@
   }
 
   h4 {
-    color: $white;
+    color: $black;
     margin-top: 0;
   }
 

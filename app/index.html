@@ -4,7 +4,6 @@ title: Welcome
 description: Start using Carly.ai to make your life less chaotic.
 type: custom
 class: homepage
-include_type: customer
 ---
 
     <div id="header-container">
@@ -19,7 +18,7 @@ include_type: customer
               </div>
             </div>
             <div id="message" class="col-md-12">
-              <h2>A personal assistant for busy<br><span id="people">sales people</span> with conference calls</h2>
+              <h2>A personal assistant for busy<br><span id="people">sales people</span> with a ton <span id="call-type">phone calls</span></h2>
             </div>
           </div>
           <div class="video-container" class="row">
@@ -34,47 +33,7 @@ include_type: customer
       </header>
     </div>
 
-    <!-- How it works -->
-    <section id="how-it-works" class="section alternate">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 section-heading">
-            <h2>How it works</h2>
-            <h3>Three simple steps</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div id="add-phone-number" class="col-sm-4">
-            <div class="img">&nbsp;</div>
-            <h3>Enter your phone number</h3>
-            <p class="lead">
-              This is the number Carly.ai will dial to connect you to your scheduled phones calls.
-            </p>
-          </div>
-          <div id="link-calendar" class="col-sm-4">
-            <div class="img">&nbsp;</div>
-            <h3>Link your calendar</h3>
-            <p class="lead">
-              Carly.ai integrates with Google Calendar, Microsoft Outlook, iOS, and Android calendars.
-            </p>
-          </div>
-          <div id="receive-call" class="col-sm-4">
-            <div class="img">&nbsp;</div>
-            <h3>Get connected 30 seconds early</h3>
-            <p class="lead">
-              Relax! Carly.ai will call you 30 seconds before your event starts. All you have to do is pick up your phone.
-            </p>
-          </div>
-        </div>
-        <div class="row padded hide">
-          <div class="col-lg-12 text-center">
-            <div class="video-container">
-              <iframe width="1140" height="641" src="//www.youtube.com/embed/T9xPcjPW4mw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    {% include how-it-works.html class="alternate large" %}
 
     <!-- Features -->
     <section id="features" class="section">

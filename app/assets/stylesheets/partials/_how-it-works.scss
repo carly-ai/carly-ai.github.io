@@ -1,0 +1,91 @@
+// How it works.
+
+#how-it-works {
+
+  .bhoechie-tab-container {
+    z-index: 10;
+    padding: 0 !important;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+
+    .bhoechie-tab {
+      background: url(/assets/images/apps/iphone-6.png) no-repeat center 0;
+      background-size: 70% auto;
+    }
+
+    .bhoechie-tab-menu {
+      padding-right: 0;
+      padding-left: 0;
+      padding-bottom: 0;
+
+      .list-group {
+        margin-bottom: 0;
+        text-align: left;
+
+        &>a {
+          background: none;
+          border: 0;
+          margin-top: 15px;
+          margin-bottom: 20px;
+
+          h3 {
+            margin-top: 0;
+          }
+
+          &:first-child{
+            border-top-right-radius: 0;
+            -moz-border-top-right-radius: 0;
+          }
+
+          &:last-child{
+            border-bottom-right-radius: 0;
+            -moz-border-bottom-right-radius: 0;
+          }
+
+          .icon {
+            text-align: center;
+            border: 1px solid $black;
+            padding: 15px 15px;
+            width: 60px;
+            height: 60px;
+            margin: 0 auto;
+
+            @include roundedCorners(100);
+          }
+
+          &.active {
+            color: $orange;
+
+            h3 {
+              color: $orange;
+            }
+
+            .icon {
+              background: $orange;
+              color: $white;
+              border-color: $orange;
+            }
+
+          }
+        }
+      }
+    }
+
+    .bhoechie-tab-content {
+      margin: 0 auto;
+      padding: 80px 0 85px;
+      width: 65%;
+      text-align: center;
+      min-height: 500px;
+    }
+
+    .bhoechie-tab .bhoechie-tab-content:not(.active){
+      display: none;
+    }
+
+  }
+
+}
