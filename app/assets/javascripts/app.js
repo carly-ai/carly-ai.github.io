@@ -51,6 +51,24 @@ $(document).ready(function() {
   //   overlay: 'rgba(255,255,255,0.4)'
   // });
 
+  // Add typed.js to the homepage hero.
+  $(".homepage #people").typed({
+      strings: ["marketing folks", "project managers"],
+      typeSpeed: 80,
+      backspeed: 0,
+      startDelay: 2000,
+      backDelay: 2000,
+      loop: true
+  });
+
+  // $(".homepage #call-type").typed({
+  //     strings: ["calls", "Skype calls"],
+  //     typeSpeed: 80,
+  //     backspeed: 10,
+  //     startDelay: 6000,
+  //     loop: true
+  // });
+
 });
 
 // Start the show. This is exciting :-)
