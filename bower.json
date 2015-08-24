@@ -1,6 +1,7 @@
 {
   "name": "Carly.ai",
   "version": "0.0.1",
+  "directory": "app",
   "dependencies": {
     "jquery": "~2.1.0",
     "bootstrap-sass-official": "~3.3.1",
