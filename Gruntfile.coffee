@@ -145,7 +145,7 @@ module.exports = (grunt) ->
         src: '.tmp/assets/javascripts/{,*/}*.js'
         options:
           specs: '.tmp/spec/{,*/}*.js'
-          vendor: ['app/assets/_bower_components/jquery/dist/jquery.js']
+          vendor: ['app/components/jquery/dist/jquery.js']
           keepRunner: true
 
     jekyll:
@@ -163,7 +163,7 @@ module.exports = (grunt) ->
 
     modernizr:
       dist:
-        devFile: 'app/assets/_bower_components/modernizr/modernizr.js'
+        devFile: 'app/components/modernizr/modernizr.js'
         outputFile: 'dist/assets/javascripts/modernizr.js'
         files:
           src: [
@@ -175,7 +175,7 @@ module.exports = (grunt) ->
 
     sass:
       options:
-        loadPath: 'app/assets/_bower_components'
+        loadPath: 'app/components'
       dist:
         files: [
           expand: true

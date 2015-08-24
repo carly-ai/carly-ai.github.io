@@ -8,16 +8,16 @@ url:          "http://www.carly.ai"
 navigation:
   - title:      Apps
     url:        /apps/
-    show_in:    both
+    show_in:    product
   - title:      Tour
     url:        /tour/
-    show_in:    both
+    show_in:    product
   - title:      Pricing
     url:        /pricing/
-    show_in:    both
-  - title:      Customers
-    url:        /customers/
-    show_in:    both
+    show_in:    product
+  # - title:      Customers
+  #   url:        /customers/
+  #   show_in:    product
 
   - title:      Log In
     url:        https://app.carly.ai/login
